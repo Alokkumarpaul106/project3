@@ -1,0 +1,47 @@
+/* Page background */
+body {
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Wrapper */
+.form-wrapper {
+    width: 100%;
+    max-width: 420px;
+}
+
+/* Form container */
+form {
+    background-color: #ffffff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Labels */
+label {
+    font-weight: 600;
+}
+
+/* Inputs */
+input {
+    border-radius: 6px;
+    padding: 10px;
+}
+
+/* Button */
+button.btn-primary {
+    width: 100%;
+    font-weight: 600;
+}
+
+/* Success message */
+.alert {
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 6px;
+}
